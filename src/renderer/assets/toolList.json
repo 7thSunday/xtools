@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Base编码",
+        "disc": "Base64",
+        "id": "base64"
+    },
+    {
+        "name": "仿射密码",
+        "disc": "Affine Cipher",
+        "id": "affineCipher"
+    }
+]

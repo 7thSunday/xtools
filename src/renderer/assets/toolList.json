@@ -8,5 +8,10 @@
         "name": "进制转换",
         "disc": "ASCII与常用进制",
         "id": "jinzhi"
+    },
+    {
+        "name": "莫斯电码",
+        "disc": "morse",
+        "id": "morse"
     }
 ]

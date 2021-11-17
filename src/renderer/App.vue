@@ -27,9 +27,10 @@ import home from "./pages/Home.vue";
 import base64 from "./components/base64.vue";
 import affineCipher from "./components/affineCipher.vue";
 import jinzhi from "./components/jinzhi.vue";
+import morse from "./components/morse.vue";
 export default {
   name: "xtools",
-  components: { home, base64, affineCipher, jinzhi },
+  components: { home, base64, affineCipher, jinzhi, morse },
   data() {
     return {
       tabsGroup: [],

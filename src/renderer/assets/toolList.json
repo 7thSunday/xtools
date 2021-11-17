@@ -5,8 +5,8 @@
         "id": "base64"
     },
     {
-        "name": "仿射密码",
-        "disc": "Affine Cipher",
-        "id": "affineCipher"
+        "name": "进制转换",
+        "disc": "ASCII与常用进制",
+        "id": "jinzhi"
     }
 ]

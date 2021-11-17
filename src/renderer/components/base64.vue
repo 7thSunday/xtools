@@ -58,7 +58,7 @@
 <script>
 import toolHeader from "./toolHeader.vue";
 import { Base64, encodeURL } from "js-base64";
-const Base32 = require("base-32").default;
+// const Base32 = require("base-32").default;
 export default {
   components: { toolHeader },
   computed: {

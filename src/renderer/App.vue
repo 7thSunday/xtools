@@ -14,7 +14,9 @@
         :label="item.name"
         :name="item.id"
       >
-        <component :is="item.id"></component>
+        <keep-alive>
+          <component :is="item.id"></component>
+        </keep-alive>
       </el-tab-pane>
     </el-tabs>
   </div>
@@ -24,9 +26,10 @@
 import home from "./pages/Home.vue";
 import base64 from "./components/base64.vue";
 import affineCipher from "./components/affineCipher.vue";
+import jinzhi from "./components/jinzhi.vue";
 export default {
   name: "xtools",
-  components: { home, base64, affineCipher },
+  components: { home, base64, affineCipher, jinzhi },
   data() {
     return {
       tabsGroup: [],
@@ -49,7 +52,7 @@ export default {
     },
     checkOpenStatus(id) {
       for (let tab of this.tabsGroup) {
-        if ((tab.id = id)) return true;
+        if ((tab.id == id)) return true;
       }
       return false;
     },
